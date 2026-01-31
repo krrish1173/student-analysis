@@ -10,7 +10,7 @@ st.title("📊 Student Data Analysis")
 
 # Load data
 try:
-    df = pd.read_csv('Students_Data (2).csv')
+    df = pd.read_csv('Students_Data.csv')
     st.success("✅ Data loaded successfully!")
 except:
     st.error("❌ Could not load data. Make sure 'Students_Data (2).csv' is in the same folder.")
@@ -86,4 +86,5 @@ This application provides insights into student performance data. The analysis i
 
 **Data Source:** Student Performance Dataset  
 **Tools Used:** Python, Streamlit, Pandas, Matplotlib  
+
 """)
